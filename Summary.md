@@ -1,4 +1,4 @@
-# tonAdvanced CSS Course - Udemy
+# Advanced CSS Course - Udemy
 
 <span>
    <img src="https://img.shields.io/badge/Documentation-SCSS-brightgreen.svg" style="margin-left: 0px;">
@@ -13,10 +13,10 @@
 
 ------
 
-1. [Natours Project   Setup and First Steps (Part 1)](https://github.com/afandilham/udemy-scss/blob/master/Summary.md#natours-project-setup-and-first-steps-part-1)
-2. [How CSS Works_ A Look Behind the Scenes](https://github.com/afandilham/udemy-scss/blob/master/Summary.md#how-css-works_-a-look-behind-the-scenes)
-3. [Introduction to Sass and NPM](https://github.com/afandilham/udemy-scss/blob/master/Summary.md#introduction-to-sass-and-npm)
-4. Natours Project Using Advanced CSS and Sass (Part 2)
+1. [Natours Project   Setup and First Steps (Part 1)](#natours-project-setup-and-first-steps-part-1)
+2. [How CSS Works_ A Look Behind the Scenes](#how-css-works_-a-look-behind-the-scenes)
+3. [Introduction to Sass and NPM](#introduction-to-sass-and-npm)
+4. [Natours Project Using Advanced CSS and Sass (Part 2)](#Natours Project  Using Advanced CSS and Sass (Part 2))
 5. Natours Project Advanced Responsive Design (Part 3)
 6. Trillo Project Master Flexbox!
 7. A Quick Introduction To CSS Grid Layouts
