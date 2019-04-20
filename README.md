@@ -20,6 +20,7 @@
 #### 5. Natours Project Advanced Responsive Design (Part 3)
 #### 6. Trillo Project Master Flexbox!
 
+------
 
 ## **Natours Project Setup and First Steps (Part 1)**
 
