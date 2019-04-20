@@ -16,7 +16,7 @@
 1. [Natours Project   Setup and First Steps (Part 1)](#natours-project-setup-and-first-steps-part-1)
 2. [How CSS Works_ A Look Behind the Scenes](#how-css-works_-a-look-behind-the-scenes)
 3. [Introduction to Sass and NPM](#introduction-to-sass-and-npm)
-4. [Natours Project Using Advanced CSS and Sass (Part 2)](#Natours Project  Using Advanced CSS and Sass (Part 2))
+4. [Natours Project Using Advanced CSS and Sass (Part 2)](#natours-project--using-advanced-css-and-sass-part-2)
 5. Natours Project Advanced Responsive Design (Part 3)
 6. Trillo Project Master Flexbox!
 7. A Quick Introduction To CSS Grid Layouts
