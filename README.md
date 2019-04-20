@@ -19,9 +19,6 @@
 4. [Natours Project Using Advanced CSS and Sass (Part 2)](#natours-project--using-advanced-css-and-sass-part-2)
 5. Natours Project Advanced Responsive Design (Part 3)
 6. Trillo Project Master Flexbox!
-7. A Quick Introduction To CSS Grid Layouts
-8. NEXTER PROJECT - MASTER CSS GRID LAYOUT
-
 
 
 ## **Natours Project Setup and First Steps (Part 1)**
