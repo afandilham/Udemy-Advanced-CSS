@@ -918,7 +918,117 @@
 
    `target` --> applies the element which is the target when we click the button or something else.
 
-10. 
+## Natours Project Advanced Responsive Design (Part 3)
+
+   1. #### Mobile-First vs Desktop-First and Breakpoints
+
+      ##### Summary
+
+      ------
+
+      The different Philosophy between **Mobile-First** principle and **Desktop-First** Principle :
+
+      ![Responsive Design Strategies](img/responsive-design-strategies.png)
+
+      
+
+      Responsive design strategies : `max-width` and `min-width` : 
+
+      ![max-width-and-min-width ](img/max-width-and-min-width.png)
+
+      
+
+      **Pros** and **Cons** Mobile and Desktop First Design : 
+
+      ***No matter what tou do, always keep both desktop and mobile in mind***
+
+      ![pros and cons Mobile First](img/pros-cons-mobile.png)
+
+      
+
+      Selecting our breakpoints :
+
+      ![Selecting Breakpoints](img/selecting-breakpoints.png)
+
+      
+
+      Bad --> This usually based on Iphone / Apple Devices. But, this not good at all, cause maybe the Apple foundation will change resolutions of others.
+
+      Good --> Based on all Devices.
+
+      Perfect --> Ignore  all devices and only look content in the design either Desktop First or Mobile First.
+
+   2. #### Use the Power of Sass Mixins to Write Media Queries
+
+      *Lecture :*
+
+      * Use a powerfull Sass mixing to write all our media queries
+      * Use the `@content` and `@if` Sass directives
+      * Taking advantage of Chrome DevTools for responsive design
+
+      ##### Summary
+
+      ----
+
+      `@content` --> Used by `@mixin` property, this is used for to parse a block of code.`
+
+      `@if` directive -- >   It's similiar with conditional in every programming languages.
+
+      We use em calculation in for media queries not rems, cause some of the browser can't understand what the rem is and can be adaptive for the font size.
+
+   3. #### Writing Media Queries - Base Typography and Layout
+
+      If you writing a mobile-first website, we have to start with the lower width and move up to the larger width.
+
+   4. #### An Overview of Responsive Images
+
+      *Not only an aspect of Responsive Design, but also for Web Performance*
+
+      ![Responsive Images](img/responsive-images.png)
+
+      
+
+      ![3 Use cases Why we Use it](img/responsive-images-3-use-cases.png)
+
+      
+
+   5. #### Responsive Images in HTML - Art Direction and Density Switching
+
+      ##### Summary
+
+      ---
+
+      `srcset` --> This attribute is used for set two images or above. And you can set image density inside them.
+
+      example : 
+
+      ```html
+      <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo" class="footer__logo">
+      ```
+
+      There are two images in the code, the first with 1x and the second 2x. **Density descriptor** is 1x (for low resolution screen) and 2x (for high resolution screen). 
+
+   6. #### Responsive Images in HTML - Density and Resolution Switching
+
+      *Lecture :*
+
+      * How to allow the browser to decide the best image to download using the `srcset` attribute, width descriptors, and the `sizes`attribute of the `<img>` element.
+
+   7. #### Responsive Images in CSS
+
+      *Lecture :*
+
+      * Implement responsive images in CSS
+      * How to use resolution media queries to target high-resolution screens with 2x
+      * How to combine multiple condition in media queries
+
+      ##### Summary 
+
+      ---
+
+      `min-resolution` --> This attribute `@media` query is used for High Resolution especially for Retina Screen.
+
+   8. 
 
     
 
