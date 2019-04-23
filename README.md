@@ -17,7 +17,7 @@
 #### 2. [How CSS Works_ A Look Behind the Scenes](#how-css-works_-a-look-behind-the-scenes)
 #### 3. [Introduction to Sass and NPM](#introduction-to-sass-and-npm)
 #### 4. [Natours Project Using Advanced CSS and Sass (Part 2)](#natours-project--using-advanced-css-and-sass-part-2)
-#### 5. Natours Project Advanced Responsive Design (Part 3)
+#### 5. [Natours Project Advanced Responsive Design (Part 3)] (#natours-project-advanced-responsive-design-part-3)
 #### 6. Trillo Project Master Flexbox!
 
 ------
