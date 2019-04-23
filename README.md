@@ -3,11 +3,8 @@
 <span>
    <img src="https://img.shields.io/badge/Documentation-SCSS-brightgreen.svg" style="margin-left: 0px;">
    <img src="https://img.shields.io/badge/Course-Udemy-red.svg">
-</span>
-
-<div>
    <img src="https://img.shields.io/badge/status-On%20Process-yellow.svg">
-</div>
+</span>
 
 ### *Table of Contents :*
 
