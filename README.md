@@ -1028,7 +1028,96 @@
 
       `min-resolution` --> This attribute `@media` query is used for High Resolution especially for Retina Screen.
 
-   8. 
+    8. #### Testing for Browser Support with supports.
+
+      *Lecture :*
+
+      * How to use `@support` feature queries
+      * Implement graceful degradation on selected properties
+      * How to use `backdrop-filter`
+
+      ##### Summary
+
+      ---
+
+      `backdrop-filter` --> Let us apply graphical effect such as blur effect or color shifting.
+
+      `@supports()`  --> If there are some attribute can't support to the browser, you can this attribute the code.
+
+      Example : 
+
+      ```scss
+      @supports(-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
+          -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+          background-color: all .3s;
+      }
+      ```
+
+   9. #### Setting up a Simple Build Process with NPM Scripts
+
+      ***A Simple Build Process*** : A sequence of tasks that we perform automatically after we finish developing a product or a certain feature of a product and ready to deploy to the web server.
+
+      ![Simple Build Process](img/simple-build-process.png)
+
+      *Step by step to Settings up Simple Build Process :* 
+
+      1. First make scripts call`"watch:sass"` with value `node-sass sass/main.SCSS starter/css/style.css -w`
+
+      2. Second change the  `"compile:sass"` with value `node-sass sass/main.SCSS starter/css/style.comp.css` without -w option. then execute in Terminal/cmd `npm run compile:sass --save-dev`
+
+      3. Next, install concat in terminal like this `npm install concat --save-dev`. And now add script `"concat:css"` with value `concat -o starter/css/style.concat.css starter/css/icon-font.css starter/css/style.comp.css`, then execute in the terminal `npm run concat:css --save-dev`
+
+      4. Install `npm install autoprefixer --save-dev`  and `npm install postcss-cli --save-dev` in terminal. add script `"prefix:css"` with value `postcss --use autoprefixer -b 'last 10 versions' starter/css/style.concat.css -o starter/css/style.prefix.css`. execute `npm run prefix:css`
+
+      5. And then compress the css code by add this script `"compress:css"`  with value `node-sass starter/css/style.prefix.css starter/css/style.css --output-style compressed` and run `npm run compress:css`
+
+      6. If you want to run all script with one command you only install `npm-run-all` in the terminal. And after that add `"build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"` and run in the terminal.
+
+      7. The easiest way to running `live-server` is combining all of the script with one command. Make two scripts, The first is to running `live-server` and the second to run all of both `live-server ` and `watch:sass`.  example :
+
+         ```json
+         "comments" : "The --parallel option is used for run simultaneously all scripts in exact time",
+         "scripts": {
+             "watch:sass": "node-sass sass/main.SCSS starter/css/style.css -w",
+             "devserver": "live-server starter",
+             "start": "npm-run-all --parallel devserver watch:sass"
+         }
+         ```
+
+      Bellow is Example json file that i make :  
+
+      ```json
+      {
+        "name": "natours",
+        "version": "1.0.0",
+        "description": "Landing page for natours",
+        "main": "index.js",
+        "scripts": {
+          "watch:sass": "node-sass sass/main.SCSS starter/css/style.css -w",
+          "devserver": "live-server starter",
+          "start": "npm-run-all --parallel devserver watch:sass",
+          "compile:sass": "node-sass sass/main.SCSS starter/css/style.comp.css",
+          "concat:css": "concat -o starter/css/style.concat.css starter/css/icon-font.css starter/css/style.comp.css",
+          "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' starter/css/style.concat.css -o starter/css/style.prefix.css",
+          "compress:css": "node-sass starter/css/style.prefix.css starter/css/style.css --output-style compressed",
+          "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
+        },
+        "author": "Ilham Afandi",
+        "license": "ISC",
+        "devDependencies": {
+          "autoprefixer": "^9.5.1",
+          "concat": "^1.0.3",
+          "node-sass": "^4.11.0",
+          "npm-run-all": "^4.1.5",
+          "postcss-cli": "^6.1.2"
+        }
+      }
+      ```
+
+      
+
+   10. 
 
     
 
