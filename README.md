@@ -1027,6 +1027,7 @@
       ---
 
       `min-resolution` --> This attribute `@media` query is used for High Resolution especially for Retina Screen.
+      
 
     8. #### Testing for Browser Support with supports.
 
@@ -1053,6 +1054,7 @@
           background-color: all .3s;
       }
       ```
+
 
    9. #### Setting up a Simple Build Process with NPM Scripts
 
