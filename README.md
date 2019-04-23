@@ -4,7 +4,7 @@
    <img src="https://img.shields.io/badge/Documentation-SCSS-brightgreen.svg" style="margin-left: 0px;">
    <img src="https://img.shields.io/badge/Course-Udemy-red.svg">
    <img src="https://img.shields.io/badge/status-On%20Process-yellow.svg">
-   <img src-"https://img.shields.io/badge/Coverage-90%25-blue.svg">
+   <img src="https://img.shields.io/badge/Coverage-90%25-blue.svg">
 </span>
 
 ### *Table of Contents :*
