@@ -1029,7 +1029,7 @@
       `min-resolution` --> This attribute `@media` query is used for High Resolution especially for Retina Screen.
       
 
-    8. #### Testing for Browser Support with supports.
+   8. #### Testing for Browser Support with supports
 
       *Lecture :*
 
