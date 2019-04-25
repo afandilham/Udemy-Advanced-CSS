@@ -1062,7 +1062,7 @@
 
       *Step by step to Settings up Simple Build Process :* 
 
-      1. First make scripts call`"watch:sass"` with value `node-sass sass/main.SCSS starter/css/style.css -w`
+      1. First a make script call`"watch:sass"` with value `node-sass sass/main.SCSS starter/css/style.css -w`
 
       2. Second change the  `"compile:sass"` with value `node-sass sass/main.SCSS starter/css/style.comp.css` without -w option. then execute in Terminal/cmd `npm run compile:sass --save-dev`
 
