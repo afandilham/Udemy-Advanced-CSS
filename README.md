@@ -16,7 +16,7 @@
 #### 3. [Introduction to Sass and NPM](#introduction-to-sass-and-npm)
 #### 4. [Natours Project Using Advanced CSS and Sass (Part 2)](#natours-project--using-advanced-css-and-sass-part-2)
 #### 5. [Natours Project Advanced Responsive Design (Part 3)](#natours-project-advanced-responsive-design-part-3)
-#### 6. Trillo Project Master Flexbox!
+#### 6. [Trillo Project Master Flexbox!]()
 
 ------
 
@@ -1114,6 +1114,108 @@
         }
       }
       ```
+      ## Trillo Project Master Flexbox!
+
+1. #### Flexbox An Overview of the Philosophy Behind Flexbox
+
+   ![Flexbox](img/Flexbox-terms.png)
+
+   
+
+   Main Flexbox Concepts : 
+
+   ![Main Flex Concepts](img/flex-definitions.png)
+
+   
+
+   ***Definitions of Flexbox Container:*** 
+
+   1. `Flex-direction` :  which speficies direction the main axis goes.
+   2.  `flex-wrap` : Wrap in to new line if there is not enough space.
+   3. `justify-content` : How to Flex item is align in the main axis.
+   4. `align-items` : How to Flex item is align in the cross axis.
+   5. `align-content` : Align the contents where there is more than one row of Flex items.
+
+   ***Definitions of Flexbox Item :***
+
+   1. `align-self` : similiar with `align-items`, but for one individual align item.
+   2. `order `: order the items. negative is the highest order.
+
+   ![Flexbox Properties](img/Flexbox-properties.png)
+
+   
+
+2. #### A Basic Intro to Flexbox The Flex Container and Flex Items
+
+   **Example Code** : [Link](https://codepen.io/afandilham/pen/VNqVZQ?editors=1100)
+
+3. #### Building the Header (Trillo App)
+
+   *Lecture :*
+
+   * Use SVG icons vs font icons
+   * How to find, generate and use SVG sprites in HTML
+   * How to change the color of an SVG icons in CSS
+   * Use more advanced flexbox alignment techniques, including `justify-content`, `align-items`, `align-self`, and `flex`
+
+   ##### Summary
+
+   ---
+
+   Custom Varibles -->  `--name-of-variable : value`
+
+   **SVG** --> *Scalable Vector Graphic* A way of writing vector graphics with code.
+
+   sprite file --> An SVG file which contain all of SVG download file.
+
+    `<svg></svg>` --> to call **SVG** file. And `<use></use>` --> it's for using it. 
+
+   Example :
+
+   ```html
+   <svg class="search__icon">
+       <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+   </svg>
+   ```
+
+   If you are using `xlink:href=""`, It's only work going to work on a web server.
+
+4. ####  Building the Navigation 
+
+   *Lecture :*
+
+   * Use `scaleY` and multiple transition properties with different settings, to create a creative hover effect
+   * How and why to use the `currentColor ` CSS variable
+   * Use some more advanced flexbox alignment techniques, including `flex-direction ` `justify-content` and `align-items`
+
+   ##### Summary
+
+   ---
+
+   `fill` --> property in CSS is for filling in the color of a **SVG** shape.
+
+   `fill: currentColor` --> Using color from parent or child element.
+
+5. #### Building the Hotel Overview
+
+   *Lecture :*
+
+   * Create an infinite animationu
+   * Use `margin: auto` with flexbox, and why it's so powerful
+   * Continue to use flexbox properties for easy positioning and alignment 
+
+6. #### Building the Description Section
+
+   *Lecture :*
+
+   * Continue to use flexbox, including `flex-wrap` to build multi-column list
+   * How and why to use CSS masks with `mask-image` and `mask-size`
+   
+   ##### Summary
+   
+   ---
+   
+   `:last-of-type` --> selector allows you to target the last occurence of an element within its container. [1](https://css-tricks.com/almanac/selectors/l/last-of-type/)
 
 
     
