@@ -1217,6 +1217,5 @@
    
    `:last-of-type` --> selector allows you to target the last occurence of an element within its container. [1](https://css-tricks.com/almanac/selectors/l/last-of-type/)
 
-
     
 
