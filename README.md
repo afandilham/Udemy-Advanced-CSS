@@ -7,9 +7,9 @@
    <img src="https://img.shields.io/badge/Coverage-90%25-blue.svg">
 </span>
 
-
-> A little summaries when i learn SCSS
-
+<div>
+   > A little summaries when i learn SCSS
+</div>
 
 ### *Table of Contents :*
 
