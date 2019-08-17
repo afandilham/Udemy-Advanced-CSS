@@ -8,7 +8,7 @@
 </span>
 
 <div>
-   > A little summaries when i learn SCSS
+   <p>> A little summaries when i learn SCSS</p>
 </div>
 
 ### *Table of Contents :*
